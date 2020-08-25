@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('typo/caviar_dreams/CaviarDreams.woff2') format('woff2'),
+        url('typo/caviar_dreams/CaviarDreams.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ants Valley - Personal Use';
+    src: url('typo/ants_valley/AntsValley-PersonalUse.woff2') format('woff2'),
+        url('typo/ants_valley/AntsValley-PersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(image/cinema1.jpg) fixed center;
+}
+
+.logo img
+{
+    width: 130px; 
+    height: 90px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-height: 90px;
+    width: 100%;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1; 
+}
+
+.navi
+{
+    display: flex;   
+    margin: 0px;
+    padding-top: 35px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+.navi li a
+{
+    font-family: 'Caviar Dreams';
+    text-decoration: none;
+    margin-right: 35px;
+    margin-left: 35px;
+    align-items: stretch;
+    color: white;
+}
+
+.navi li a:hover
+{
+    text-decoration: underline white;
+    font-weight: bold;
+}
+
+/* Image de fond et slogan */
+.contenent
+{
+    display: flex;
+}
+
+.imagedefond
+{
+    
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slogan
+{
+    color: white;
+    font-size: 8em;
+}
+/* Fin image de fond et sologan */
+
+/* Navigation */
+
+#sect1
+{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    color: #cdcdcd;
+}
+
+h1{
+    font-family: 'Ants Valley - Personal Use';
+    text-align: center;
+    font-size: 5em;
+    padding-bottom: 2%;
+   
+}
+
+.img{
+    height: 25%;
+    width: 15%;
+}
+
+
+#sect1 img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale();
+}
+
+.affiche
+{
+    display: flex;
+    justify-content: center;
+   
+}
+
+figure
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption, legend, h2
+{
+    font-family: 'Caviar Dreams';
+    margin: 2%;
+}
+
+figcaption h2
+{
+    margin: 1%;
+    font-size: 1.8em;
+    
+}
+
+figcaption h3
+{
+    font-style: italic;
+    font-size: 0.8em;
+
+}
+
+a{
+    color: #d0cbcb;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+legend
+{
+    font-size: 1em;
+    width: 53%;
+    text-align: justify;
+    height: 15%;
+    overflow-y: scroll;
+    
+}
+
+legend::-webkit-scrollbar {
+    width: 2px;
+    background-color: white;
+}
+
+legend::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
+
+/* Fin de section 1 */
+
+/* Infos pratique */
+.sect2{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background-color: rgba(159, 159, 159, 0.4);
+    width: 100%;
+    
+}
+
+.contenent2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2, caption{
+    font-family: 'Caviar Dreams';
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+ol, tr
+{
+    font-family: 'Caviar Dreams'; 
+    font-size: 1em; 
+
+}
+
+ol{
+   margin: 4%;
+   width: 100%;
+}
+
+/* Tableau */
+table
+{
+    
+    border-collapse: separate;
+    width: 45%;
+    margin: 5%;
+    empty-cells: hide;
+}
+
+tr{
+    text-align: center;
+}
+
+th
+{
+    padding: 2%;
+    background-color: #817d7d;
+}
+
+td{
+    padding: 2%;
+    background-color: #dfdfdf;
+}
+
+
+/* Tableau */
+
+/* Ou sommes nous */
+#nous{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+
+iframe{
+    width: 40%;
+    height: 30em;
+}
+.ou{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #dfdfdf;
+}
+p{
+    font-family: 'Caviar Dreams';
+    font-size: 0.8em;
+    margin: 2%;
+}
+
+/* Où sommes nous ?? */
+
+/* Fomulaire */
+#Cont{
+    background-color: rgba(159, 159, 159, 0.4);
+    width: 100%;
+}
+.formulaire{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+.formulaire form{
+    width: 50%;
+}
+
+.formulaire input, select{
+    width: 48%;
+    padding-top: 15px;
+    
+}
+textarea{
+    width: 100%;
+    height: 10em;
+    
+}
+
+.formulaire button{
+    width: 48%;
+    text-align: center;
+    height: 3em;
+}
+
+.form-font{
+    font-family: 'Caviar Dreams';
+    text-align: center;
+}
+/* Formulaire */
+
+/* Footer */
+footer{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+}
+.contenaire3{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.reseau{
+    width: 35%;
+    padding: 0.2em;
+    text-align: center;
+}
+/* Footer */
+
+@media all and (max-width: 1054px){
+
+    .affiche, .contenent2, figure, .ou{
+        flex-direction: column;
+        width: 100%;
+    }
+    iframe, table{
+        width: 99%; 
+    }
+    h1, .slogan{
+        font-size: 3em;
+    }
+    .formulaire input, select, .reseau{
+        width: 100%;
+    }
+}

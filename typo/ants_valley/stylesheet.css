@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('CaviarDreams.woff2') format('woff2'),
+        url('CaviarDreams.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ants Valley - Personal Use';
+    src: url('AntsValley-PersonalUse.woff2') format('woff2'),
+        url('AntsValley-PersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ants Valley - Personal Use';
+    src: url('AntsValley-PersonalUse.woff2') format('woff2'),
+        url('AntsValley-PersonalUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
